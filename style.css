@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    cursor: url("One Piece Luffy & Arrow Animated--pointer--SweezyCursors..cur"), auto;
+}
+.container{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+    
+}
+.buttons button{
+    flex: 1;
+    min-width: 100px;
+
+}
+.cry{
+    width: 200px;
+    height: auto;
+    display: none;
+}
+.smile{
+    width: 200px;
+    height: auto;
+    display: none;
+}
